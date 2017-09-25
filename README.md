@@ -61,6 +61,11 @@ export default function asyncComponent(importFunction) {
   };
 }
 ```
+### TODO
+* Add callbacks: onError, onLoaded.
+* Add components: Loading, Error
+* Or one Default component which change to Error|Loading|Other after callbacks
+
 ### Params function
 | Prop | Type | Required | Description |
 | :--- | :--- | :---: | :--- |
